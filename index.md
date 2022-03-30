@@ -23,7 +23,7 @@ There is no required prerequisite knowledge to use Git. However, users are recom
 
 This guide is written based on version 2.35.1, the latest version at the moment.
 
-The software can be downloaded [here](https://https://git-scm.com/downloads).
+The software can be downloaded [here](https://git-scm.com/downloads).
 
 ---
 
