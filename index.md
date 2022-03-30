@@ -12,17 +12,14 @@ Git is a free, open source version-control system designed to help coordinate mu
 
 ##### Table of Contents
 
-- [Introduction](#introduction)
-        - [Table of Contents](#table-of-contents)
-  - [Intended Users](#intended-users)
-  - [Prerequisite Knowledge](#prerequisite-knowledge)
-  - [Software Versions](#software-versions)
-  - [Brief History](#brief-history)
-  - [Typographical Conventions](#typographical-conventions)
+- [Intended Users](#intended-users)
+- [Prerequisite Knowledge](#prerequisite-knowledge)
+- [Software Versions](#software-versions)
+- [Brief History](#brief-history)
+- [Typographical Conventions](#typographical-conventions)
 
 ## Intended Users
 
-<<<<<<< HEAD
 This guide is designed for users, with little to no experience with Git, learn the ropes and get familiar with using basic Git commands, and features. By the end of this guide, you will be able to:
 
 * Clone a repository
@@ -31,9 +28,8 @@ This guide is designed for users, with little to no experience with Git, learn t
 * Pull updates from the latest version
 * Commit and push changes
 * Handle merge conflicts
-=======
+
 ---
->>>>>>> 3c663e222959bb865ad650a205d38cf77b28aa20
 
 ## Prerequisite Knowledge
 
