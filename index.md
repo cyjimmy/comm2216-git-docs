@@ -73,6 +73,3 @@ event an error occurs.
 | <em>git<em>                   | <em>italics<em> | Refers to command line text                       |
 | **files** and **directories** | **bold**        | Are displayed in a bolded font                    |
 | *`command line input`*        | Normal Text     | Refers to command line text                       |
-
-
----
