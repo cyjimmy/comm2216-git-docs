@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Navigation Structure
+title: Glossary
 nav_order: 5
 ---
 
