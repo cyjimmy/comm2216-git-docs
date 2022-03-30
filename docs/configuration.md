@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration
+title: Instruction 1
 nav_order: 2
 ---
 
