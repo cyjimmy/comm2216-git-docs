@@ -64,5 +64,3 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 - [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
 
 ---
-
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
