@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search
+title: Troubleshooting
 nav_order: 7
 ---
 
