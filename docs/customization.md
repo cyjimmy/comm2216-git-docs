@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Customization
+title: Instruction 2
 nav_order: 6
 ---
 
