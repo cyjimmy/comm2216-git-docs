@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CRUD Operation
+title: Git Revert
 nav_order: 4
 ---
 
