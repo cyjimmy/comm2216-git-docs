@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Revert to Previous Commit
+title: Git Revert
 nav_order: 4
 ---
 
-# [](#header-1)Git Revert
+# Git Revert
+{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -12,13 +13,13 @@ nav_order: 4
 1. TOC
 {:toc}
 
-## [](#header-2)Temporarily switch to a different commit
+## [](#header-1)Temporarily switch to a different commit
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-## [](#header-3)Revert Most Recent Unpublished Commit
+## [](#header-2)Revert Most Recent Unpublished Commit
 
 
 ```ruby
@@ -28,19 +29,19 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-## [](#header-4)Delete All Unpublished Commits
+## [](#header-3)Delete All Unpublished Commits
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-### [](#header-5)Revert project to previous version on GitHub
+### [](#header-4)Revert project to previous version on GitHub
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### [](#header-6)Header 6
+###### [](#header-5)Header 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
