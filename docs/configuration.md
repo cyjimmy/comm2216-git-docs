@@ -5,6 +5,7 @@ nav_order: 2
 ---
 
 # Setting up Git
+
 {: .no_toc }
 
 After this setup, users should have a functional git with an attached username and email.
@@ -12,6 +13,7 @@ After this setup, users should have a functional git with an attached username a
 {: .fs-6 .fw-300 }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. Windows setup
@@ -25,15 +27,14 @@ View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/t
 ## Windows Setup
 
 1. Download the 64-bit version of the Git Windows setup using the following link:
-https://git-scm.com/download/win
-
+<https://git-scm.com/download/win>
 
 ```yaml
 Note: If you're using a 10-year-old system or older, consider using the 32-bit Windows Setup. The 64-bit version may not be compatible with your system.
 ```
 
 2. Open the installer and accept all the defaults *except* for the default editor "Vim". Vim is hard to use and not recommended for beginners. I'd recommend selecting Notepad++.
-   
+
 ```yaml
 Note: If you don't have Notepad++ already, download it with the prompt from the installer and install it with default settings.
 
@@ -55,9 +56,11 @@ git config --global user.email "adam@hotmail.ca"
 ```
 
 5. Verify your information by type the following:
+
 ```yaml
 git config --list
 ```
+
 and look at the user.name and user.email field to double-check that they've been set properly.
 
 ## Mac (OSX) Setup
@@ -69,11 +72,14 @@ and look at the user.name and user.email field to double-check that they've been
 ```yaml
 brew install git
 ```
+
 3. Once the operation is complete, type the following to verify the installation.
 
 ```yaml
 git version
 ```
+
+and look at the user.name and user.email field to double-check that they've been set properly.
 
 4. In the console, type the following to edit your name and email:
 
@@ -87,8 +93,10 @@ git config --global user.email "adam@hotmail.ca"
 (replace adam@hotmail.ca with your email)
 ```
 
-5. Verify your information by type the following:
+5. Verify your information by typing the following:
+
 ```yaml
 git config --list
 ```
+
 and look at the user.name and user.email field to double-check that they've been set properly.
