@@ -13,13 +13,13 @@ nav_order: 4
 1. TOC
 {:toc}
 
-## [](#header-1)Temporarily switch to a different commit
+## Temporarily switch to a different commit
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-## [](#header-2)Revert Most Recent Unpublished Commit
+## Revert Most Recent Unpublished Commit
 
 
 ```ruby
@@ -35,11 +35,19 @@ end
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-### [](#header-4)Revert project to previous version on GitHub
+## [](#header-4)Revert project to previous version on GitHub
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1. This is an ordered list following a header.
+2. This is an ordered list following a header.
+3. This is an ordered list following a header.
+
+* * *
+* * *
+* * *
+* * *
+* * *
+
+
 
 ###### [](#header-5)Header 6
 
