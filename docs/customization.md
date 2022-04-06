@@ -20,27 +20,28 @@ CRUD is an acronym which stands for Create, Read, Update and Delete. These are t
 
 As a modern source-code management software, Git makes CRUD simple and fast to perform.
 
-## Creating New Repository
-1. Create remote repository on GitHub<br>
-In order to use Git to manage your files, you need to have a remote repository. Follow instructions on this [page](https://docs.github.com/en/get-started/quickstart/create-a-repo) to create your GitHub repository.<br><br>
-2. Link local repository with remote repository<br>
-   1. Open desired directory in Command Prompt
-      >cd $PATH
-      >  
-      Replace $PATH with the path of your directory. This line will open the specified directory.<br><br>
-      Instead of typing the path of the directory, you can also type cd, then drag the desire directory to Command Prompt.<br><br>
-   2. Create a local Git repository
-      >git init
-      > 
-      A local Git repository is a local directory with Git version control enabled.<br><br>
-   3. Link your local and remote repository
-      >git remote add origin $PATH
-      > 
-      Replace $PATH with the path of your remote repository.<br><br>
-   4. Choose the main branch
-      >git branch -M main
-      >
-      Git also allows users to have branches for their repository. For a new repository, there is only one branch which is main.
+## Creating New Remote Repository
+In order to use Git to manage your files, you need to have a remote repository.<br><br>
+Follow instructions on this [page](https://docs.github.com/en/get-started/quickstart/create-a-repo) to create your GitHub repository.
+
+## Linking Local Repository with Remote Repository
+1. Open desired directory in Command Prompt
+   >cd $PATH
+   >  
+   Replace $PATH with the path of your directory. This line will open the specified directory.<br><br>
+   Instead of typing the path of the directory, you can also type cd, then drag the desire directory to Command Prompt.<br><br>
+2. Create a local Git repository
+   >git init
+   > 
+   A local Git repository is a local directory with Git version control enabled.<br><br>
+3. Link your local and remote repository
+   >git remote add origin $PATH
+   > 
+   Replace $PATH with the path of your remote repository.<br><br>
+4. Choose the main branch
+   >git branch -M main
+   >
+   Git also allows users to have branches for their repository. For a new repository, there is only one branch which is main.
 
 ## Updating Remote Repository
 Now that your repository is created and setup, Git will start tracking any changes made within your local repository.<br>
