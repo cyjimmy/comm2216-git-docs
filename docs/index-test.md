@@ -25,8 +25,7 @@ to revert, and whether your commit has already been published to GitHub.
 to your current commit - unaltered.
 
 1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want re-visit.***
-![revert1.png](revert1.png)
-   
+   ![revert1.png](revert1.png)
    ```bash
    $ git checkout <commit-id>
    ```
@@ -65,23 +64,30 @@ revert the repository to the last published commit.
 
 ## Revert Project to a Previous Version on GitHub
 
-1. ***Find the version you want to return to and make a record of the commit ID.***
+1. ***Find the version you want to return to and make a record of the commit ID.  This command 
+   will return the following result in your terminal.***
    ```bash
    $ git log --oneline
    ```
+   ![revert2.png](revert2.png)
+   
+   <br/>
 2. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
    ```bash
    $ git checkout <commit-id> .
    ```
+   <br/>
 3. ***Add your file to the staging area.***
    ```bash
    $ git add .
    ```
-4. ***Commit your changes***
+   <br/>
+4. ***Commit your changes.***
    ```bash
    $ git commit -m <commit message>
    ```
-5. ***Push to your remote repository***
+   <br/>
+5. ***Push to your remote repository.***
    ```bash
    $ git push
    ```
