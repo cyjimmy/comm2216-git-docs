@@ -35,7 +35,6 @@ $ git checkout <commit-id>
 
 2. ***To return to where you were before revisiting your old commit, simply use the command line
    statement below.***
-
 ```bash
 $ git switch -
 ```
