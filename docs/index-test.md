@@ -29,13 +29,13 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-## [](#header-3)Delete All Unpublished Commits
+## Delete All Unpublished Commits
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-## [](#header-4)Revert project to previous version on GitHub
+## Revert project to previous version on GitHub
 
 1. This is an ordered list following a header.
 2. This is an ordered list following a header.
@@ -49,7 +49,6 @@ end
 
 
 
-###### [](#header-5)Header 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -58,25 +57,21 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
 
-* * *
-
-### Here is an unordered list:
 
 *   Item foo
 *   Item bar
 *   Item baz
 *   Item zip
 
-### And an ordered list:
+
 
 1.  Item one
 1.  Item two
 1.  Item three
 1.  Item four
 
-### And a nested list:
+
 
 - level 1 item
   - level 2 item
@@ -92,7 +87,7 @@ end
   - level 2 item
 - level 1 item
 
-### Nesting an ol in ul in an ol
+
 
 - level 1 item (ul)
   1. level 2 item (ol)
@@ -110,23 +105,23 @@ end
     - level 3 item (ul)
 - level 1 item (ul)
 
-### And a task list
+
 
 - [ ] Hello, this is a TODO item
 - [ ] Hello, this is another TODO item
 - [x] Goodbye, this item is done
 
-### Small image
+
 
 ![](../../assets/images/small-image.jpg)
 
-### Large image
+
 
 ![](../../assets/images/large-image.jpg)
 
 "[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
 
-### Definition lists can be used with HTML syntax.
+
 
 <dl>
 <dt>Name</dt>
@@ -139,7 +134,7 @@ end
 <dd>Green</dd>
 </dl>
 
-#### Multiple description terms and values
+
 
 Term
 : Brief description of Term
@@ -168,7 +163,7 @@ Term2
 : Second description of Term1 and Term2,
   possibly more than one line
 
-### More code
+
 
 ```
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
