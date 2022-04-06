@@ -34,7 +34,7 @@ nav_order: 2
    
 4. In the console, type the following to edit your name and email:
    
-   ```yaml
+   ```bash
    Username:
    git config --global user.name "Adam Savage"
    (replace Adam Savage with your name)
@@ -46,7 +46,7 @@ nav_order: 2
    
 5. Verify your information by type the following:
    
-   ```yaml
+   ```bash
    git config --list
    ```
    
@@ -58,13 +58,13 @@ nav_order: 2
    
 2. In the terminal, type the following to install Git:
    
-   ```yaml
+   ```bash
    brew install git
    ```
    
 3. Once the operation is complete, type the following to verify the installation.
    
-   ```yaml
+   ```bash
    git version
    ```
    
@@ -72,7 +72,7 @@ nav_order: 2
    
 4. In the console, type the following to edit your name and email:
    
-   ```yaml
+   ```bash
    Username:
    git config --global user.name "Adam Savage"
    (replace Adam Savage with your name)
@@ -84,7 +84,7 @@ nav_order: 2
    
 5. Verify your information by typing the following:
    
-   ```yaml
+   ```bash
    git config --list
    ```
    
