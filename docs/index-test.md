@@ -71,11 +71,8 @@ git reset --hard
 ```
 <br/>
 
-## Revert Project to a previous version on GitHub
+## Revert Project to a Previous Version on GitHub
 
-1. This is an ordered list following a header.
-2. This is an ordered list following a header.
-3. This is an ordered list following a header.
-
+1. ***Find the version you ***
 
 
