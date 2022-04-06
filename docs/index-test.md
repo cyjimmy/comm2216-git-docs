@@ -13,21 +13,42 @@ nav_order: 4
 1. TOC
 {:toc}
 
-## Temporarily switch to a different commit
+## What is a Git Revert?
+There are a number of ways to undo unintended or incorrect commits that cause something to go 
+wrong with your repository.  The type of Git command you will use will depend on what type of data 
+you want to revert, and whether your commit has already been published to GitHub.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Temporarily switch to a different commit
+**Purpose:** Temporarily re-visit your previous commit, do testing, make changes, and then to 
+return 
+to your current commit - unaltered.
+
+1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want 
+   re-visit.***
+
+![revert1.png](revert1.png)
+
+```commandline
+git checkout <commit-id>
+```
+
+2. ***To return to where you were before revisiting your old commit, simply use the command line 
+   statement below.***
+```commandline
+git switch -
+```
+3. ***To check that you have correctly returned to correct version of your code, use the 
+   following command line statement and cross-reference it with the most recent commit ID on 
+   GitHub.***
+```commandline
+git rev-parse --verify HEAD
+```
+
 
 ## Revert Most Recent Unpublished Commit
 
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+
 
 ## Delete All Unpublished Commits
 
