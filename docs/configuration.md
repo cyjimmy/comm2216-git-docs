@@ -9,7 +9,6 @@ nav_order: 2
 {: .no_toc }
 
 After this setup, users should have a functional git with an attached username and email.
-\_config.yml file.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -20,26 +19,19 @@ After this setup, users should have a functional git with an attached username a
 2. Mac (OSX) setup
 {:toc}
 
----
-
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
-
 ## Windows Setup
 
 1. Download the 64-bit version of the Git Windows setup using the following link:
 <https://git-scm.com/download/win>
 
-```yaml
-Note: If you're using a 10-year-old system or older, consider using the 32-bit Windows Setup. The 64-bit version may not be compatible with your system.
-```
+
+_Note: If you're using a 10-year-old system or older, consider using the 32-bit Windows Setup. The 64-bit version may not be compatible with your system._
 
 2. Open the installer and accept all the defaults *except* for the default editor "Vim". Vim is hard to use and not recommended for beginners. I'd recommend selecting Notepad++.
 
-```yaml
-Note: If you don't have Notepad++ already, download it with the prompt from the installer and install it with default settings.
+_Note: If you don't have Notepad++ already, download it with the prompt from the installer and install it with default settings._
 
 Once Notepad++ is done installing, press "Back" on the Git installer and "Next" again to refresh the option to continue.
-```
 
 3. Once the installer is finished, launch git by right-clicking on an empty space on your desktop or window and selecting "Git Bash here"
 
