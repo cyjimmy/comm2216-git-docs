@@ -12,9 +12,10 @@ After this setup, users should have a functional git with an attached username a
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. Windows setup
-2. Mac (OSX) setup
+1. TOC
    {:toc}
+
+---
 
 ## Windows Setup
 
