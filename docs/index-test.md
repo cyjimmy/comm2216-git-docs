@@ -13,162 +13,69 @@ nav_order: 4
 1. TOC
 {:toc}
 
-## Temporarily switch to a different commit
+## What is a Git Revert?
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+There are a number of ways to undo unintended or incorrect commits that cause something to go wrong
+with your repository. The type of Git command you will use will depend on what type of data you want
+to revert, and whether your commit has already been published to GitHub.
 
-## Revert Most Recent Unpublished Commit
+## Temporarily Switch to a Different Commit
 
+**Purpose:** Temporarily re-visit your previous commit, do testing, make changes, and then to return
+to your current commit - unaltered.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want
+   re-visit.***
+![revert1.png](revert1.png)
+
+```bash
+$ git checkout <commit-id>
 ```
+<br/>
+
+2. ***To return to where you were before revisiting your old commit, simply use the command line
+   statement below.***
+```bash
+$ git switch -
+```
+<br/>
+
+3. ***To check that you have correctly returned to correct version of your code, use the following
+   command line statement and cross-reference it with the most recent commit ID on GitHub.***
+
+```bash
+$ git rev-parse --verify HEAD
+```
+<br/>
+
+## Undo Most Recent Unpublished Commit
+
+**Purpose:** You want to undo the most recent un-pushed commit, so you can make changes before 
+committing and pushing to GitHub.
+
+1. ***To undo your last unpushed commit, use the following command line statement.***
+
+```bash
+$ git reset --soft HEAD~1
+```
+<br/>
 
 ## Delete All Unpublished Commits
+**Purpose:** You want to completely remove any un-pushed changes from the local directly and 
+revert the repository to the last published commit.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+1. ***To completely undo any un-pushed changes, use the following command line statement.***
 
-## Revert project to previous version on GitHub
+```bash
+git reset --hard
+```
+<br/>
+
+## Revert Project to a previous version on GitHub
 
 1. This is an ordered list following a header.
 2. This is an ordered list following a header.
 3. This is an ordered list following a header.
 
-* * *
-* * *
-* * *
-* * *
-* * *
 
 
-
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-
-
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-  1. level 4 item (ol)
-  1. level 4 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-
-
-
-- [ ] Hello, this is a TODO item
-- [ ] Hello, this is another TODO item
-- [x] Goodbye, this item is done
-
-
-
-![](../../assets/images/small-image.jpg)
-
-
-
-![](../../assets/images/large-image.jpg)
-
-"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
-
-
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-
-
-Term
-: Brief description of Term
-
-Longer Term
-: Longer description of Term,
-  possibly more than one line
-
-Term
-: First description of Term,
-  possibly more than one line
-
-: Second description of Term,
-  possibly more than one line
-
-Term1
-Term2
-: Single description of Term1 and Term2,
-  possibly more than one line
-
-Term1
-Term2
-: First description of Term1 and Term2,
-  possibly more than one line
-
-: Second description of Term1 and Term2,
-  possibly more than one line
-
-
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
