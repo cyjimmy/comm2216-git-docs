@@ -48,30 +48,42 @@ to your current commit - unaltered.
 committing and pushing to GitHub.
 
 1. ***To undo your last unpushed commit, use the following command line statement.***
-
-```bash
-$ git reset --soft HEAD~1
-```
-<br/>
+   ```bash
+   $ git reset --soft HEAD~1
+   ```
+   <br/>
 
 ## Delete All Unpublished Commits
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
 revert the repository to the last published commit.
 
 1. ***To completely undo any un-pushed changes, use the following command line statement.***
-
-```bash
-git reset --hard
-```
-<br/>
+   ```bash
+   $ git reset --hard
+   ```
+   <br/>
 
 ## Revert Project to a Previous Version on GitHub
 
 1. ***Find the version you want to return to and make a record of the commit ID.***
-   
+   ```bash
+   $ git log --oneline
+   ```
 2. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
+   ```bash
+   $ git checkout <commit-id> .
+   ```
 3. ***Add your file to the staging area.***
+   ```bash
+   $ git add .
+   ```
 4. ***Commit your changes***
+   ```bash
+   $ git commit -m <commit message>
+   ```
 5. ***Push to your remote repository***
+   ```bash
+   $ git push
+   ```
 
 
