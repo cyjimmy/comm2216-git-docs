@@ -32,7 +32,7 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
    cd $PATH
    ```
 
-   Replace $PATH with the path of your directory. This line will open the specified directory.
+   Replace $PATH with the path of your local directory. This line will open the specified directory.
 
    Instead of typing the path of the directory, you can also type cd, then drag the desire directory to Command Prompt.
 
