@@ -46,7 +46,8 @@ git rev-parse --verify HEAD
 
 
 ## Revert Most Recent Unpublished Commit
-
+1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want 
+   re-visit.***
 
 
 
