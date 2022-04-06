@@ -15,6 +15,7 @@ After this setup, users should have a functional git with an attached username a
 1. Windows setup
 2. Mac (OSX) setup
    {:toc}
+
 ## Windows Setup
 
 1. Download the 64-bit version of the Git Windows setup using the following link:
