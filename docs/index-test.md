@@ -27,13 +27,11 @@ to your current commit - unaltered.
 1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want
    re-visit.***
 ![revert1.png](revert1.png)
+
 ```bash
 $ git checkout <commit-id>
 ```
-
-
-
-
+<br/>
 
 2. ***To return to where you were before revisiting your old commit, simply use the command line
    statement below.***
@@ -41,6 +39,7 @@ $ git checkout <commit-id>
 ```bash
 $ git switch -
 ```
+<br/>
 
 3. ***To check that you have correctly returned to correct version of your code, use the following
    command line statement and cross-reference it with the most recent commit ID on GitHub.***
@@ -48,6 +47,7 @@ $ git switch -
 ```bash
 $ git rev-parse --verify HEAD
 ```
+<br/>
 
 ## Undo Most Recent Unpublished Commit
 
@@ -59,6 +59,7 @@ committing and pushing to GitHub.
 ```bash
 $ git reset --soft HEAD~1
 ```
+<br/>
 
 ## Delete All Unpublished Commits
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
@@ -69,7 +70,7 @@ revert the repository to the last published commit.
 ```bash
 git reset --hard
 ```
-
+<br/>
 
 ## Revert project to previous version on GitHub
 
