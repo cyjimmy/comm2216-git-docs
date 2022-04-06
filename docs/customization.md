@@ -55,7 +55,7 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
 4. ***Choose the main branch***
 
    ```bash
-   git branch -M main
+   git branch -m main
    ```
 
    Git also allows users to have branches for their repository. For a new repository, there is only one branch which is main.
