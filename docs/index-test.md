@@ -1,5 +1,7 @@
 ---
-layout: default title: Git Revert nav_order: 4
+layout: default
+title: CRUD Operation
+nav_order: 4
 ---
 
 # Git Revert
