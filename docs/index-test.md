@@ -41,6 +41,7 @@ to your current commit - unaltered.
    $ git rev-parse --verify HEAD
    ```
    <br/>
+
 ## Undo Most Recent Unpublished Commit
 
 **Purpose:** You want to undo the most recent un-pushed commit, so you can make changes before 
