@@ -7,13 +7,13 @@ nav_order: 2
 # Setting up Git
 {: .no_toc }
 
-After this setup, users should have a functional git with an attached username and email.
+   After this setup, users should have a functional git with an attached username and email.
 
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
