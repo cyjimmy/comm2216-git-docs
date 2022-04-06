@@ -25,8 +25,7 @@ to revert, and whether your commit has already been published to GitHub.
 to your current commit - unaltered.
 
 1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want re-visit.***
-![revert1.png](revert1.png)
-   
+   ![revert1.png](revert1.png)
    ```bash
    $ git checkout <commit-id>
    ```
@@ -42,36 +41,56 @@ to your current commit - unaltered.
    $ git rev-parse --verify HEAD
    ```
    <br/>
+
 ## Undo Most Recent Unpublished Commit
 
 **Purpose:** You want to undo the most recent un-pushed commit, so you can make changes before 
 committing and pushing to GitHub.
 
 1. ***To undo your last unpushed commit, use the following command line statement.***
-
-```bash
-$ git reset --soft HEAD~1
-```
-<br/>
+   ```bash
+   $ git reset --soft HEAD~1
+   ```
+   <br/>
 
 ## Delete All Unpublished Commits
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
 revert the repository to the last published commit.
 
 1. ***To completely undo any un-pushed changes, use the following command line statement.***
-
-```bash
-git reset --hard
-```
-<br/>
+   ```bash
+   $ git reset --hard
+   ```
+   <br/>
 
 ## Revert Project to a Previous Version on GitHub
 
-1. ***Find the version you want to return to and make a record of the commit ID.***
+1. ***Find the version you want to return to and make a record of the commit ID.  This command 
+   will return the following result in your terminal.***
+   ```bash
+   $ git log --oneline
+   ```
+   ![revert2.png](revert2.png)
    
+   <br/>
 2. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
+   ```bash
+   $ git checkout <commit-id> .
+   ```
+   <br/>
 3. ***Add your file to the staging area.***
-4. ***Commit your changes***
-5. ***Push to your remote repository***
+   ```bash
+   $ git add .
+   ```
+   <br/>
+4. ***Commit your changes.***
+   ```bash
+   $ git commit -m <commit message>
+   ```
+   <br/>
+5. ***Push to your remote repository.***
+   ```bash
+   $ git push
+   ```
 
 
