@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Instruction 1
+title: Setting up Git
 nav_order: 2
 ---
 
