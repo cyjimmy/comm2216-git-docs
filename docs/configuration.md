@@ -28,7 +28,7 @@ nav_order: 2
    
    _Note: If you don't have Notepad++ already, download it with the     prompt from the installer and install it with default settings._
    
-   Once Notepad++ is done installing, press "Back" on the Git     installer and "Next" again to refresh the option to continue.
+   _Once Notepad++ is done installing, press "Back" on the Git     installer and "Next" again to refresh the option to continue._
    
 3. Once the installer is finished, launch git by right-clicking on an empty space on your desktop or window and selecting "Git Bash here"
    
@@ -67,8 +67,6 @@ nav_order: 2
    ```bash
    git version
    ```
-   
-   and look at the user.name and user.email field to double-check that     they've been set properly.
    
 4. In the console, type the following to edit your name and email:
    
