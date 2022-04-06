@@ -16,11 +16,11 @@ nav_order: 3
 ---
 
 ## What is CRUD?
-CRUD is an acronym which stands for Create, Read, Update and Delete. These are the basic functions that present in most storage system including Git.<br>
+CRUD is an acronym which stands for Create, Read, Update and Delete. These are the basic functions that present in most storage system including Git.<br><br>
 As a modern source-code management software, Git makes CRUD simple and fast to perform.
 
 ## Creating New Remote Repository
-In order to use Git to manage your files, you need to have a remote repository.<br>
+In order to use Git to manage your files, you need to have a remote repository.<br><br>
 Follow instructions on this [page](https://docs.github.com/en/get-started/quickstart/create-a-repo) to create your GitHub repository.
 
 ## Linking Local Repository with Remote Repository
@@ -28,7 +28,7 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
    ```bash
    cd $PATH
    ```
-   Replace $PATH with the path of your directory. This line will open the specified directory.<br>
+   Replace $PATH with the path of your directory. This line will open the specified directory.<br><br>
    Instead of typing the path of the directory, you can also type cd, then drag the desire directory to Command Prompt.
 2. Create a local Git repository<br>
    ```bash
@@ -87,7 +87,7 @@ If your local branch is behind your remote branch, which means your local reposi
 
 ## Deleting Repository
 1. Remove Local Repository<br>
-   To remove your local repository, you can simply delete the whole directory.<br>
+   To remove your local repository, you can simply delete the whole directory.<br><br>
    If you want to only remove the version control function and keep the directory, you can use the command below:<br>
    ```bash
    rmdir /s .git
