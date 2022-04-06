@@ -22,7 +22,7 @@ As a modern source-code management software, Git makes CRUD simple and fast to p
 
 ## Creating New Repository
 1. Create remote repository on GitHub<br>
-In order to use Git to manage your files, you need to have a remote repository. Follow instructions on this [page](https://docs.github.com/en/get-started/quickstart/create-a-repo) to create your GitHub repository.
+In order to use Git to manage your files, you need to have a remote repository. Follow instructions on this [page](https://docs.github.com/en/get-started/quickstart/create-a-repo) to create your GitHub repository.<br><br>
 2. Link local repository with remote repository<br>
    1. Open desired directory in Command Prompt
       >cd $PATH
@@ -62,18 +62,27 @@ Now that your repository is created and setup, Git will start tracking any chang
    In Git, commit is taking a snapshot of your repository. It is the state of your repository with the staged changes.
    >git commit -m "commit message"
    > 
-   This commit all the staged changes. Notice there is a "commit message" at the end. This is where you can put message that explain your changes. Putting a non-empty commit message is required, since it is a good practice in development.<br><br>
+   This commit all the staged changes. Notice there is a "commit message" at the end. This is where you can put message that explain your changes. Make sure to put your message inside double quote as shown in the example.<br><br>
+   Adding a commit message is mandatory, since it is a good practice in development.<br><br>
    
 4. Push your commits to remote repository
    >git push
    >
    The push command will update your remote repository with the changes you committed.
    
-## Reading Repository
-1. Pull
+## Updating Local Repository
+>git pull
+> 
+If your local branch is behind your remote branch, which means your local repository is not up-to-date, you can use the pull command to update your local repository.
 
 
 ## Deleting Repository
-1. Remove from GitHub
-2. Remove Local Repository
+1. Remove Local Repository<br>
+   To remove your local repository, you can simply delete the whole directory.<br><br>
+   If you want to only remove the version control function and keep the directory, you can use the command below:
+   >rmdir /s .git
+   > 
+   This will remove the hidden .git directory and remove the version control function.<br><br>
+2. Remove Remote Repository<br>
+   It is not possible to remove remote repository using Git. You will have to go to GitHub and delete it. Detailed instructions can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository).
 
