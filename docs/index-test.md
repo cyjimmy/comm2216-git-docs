@@ -57,8 +57,15 @@ committing and pushing to GitHub.
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
 revert the repository to the last published commit.
 
-!!! warning "Action & Name Attributes"
-   The action attribute must match the path that will match the route path where we insert the handler logic.
+<div class="panel panel-danger">
+**Danger**
+{: .panel-heading}
+<div class="panel-body">
+
+DANGER DESCRIPTION
+
+</div>
+</div>
 
 1. ***To completely undo any un-pushed changes, use the following command line statement.***
    ```bash
