@@ -87,3 +87,11 @@ nav_order: 2
    ```
    
    and look at the user.name and user.email field to double-check that     they've been set properly.
+
+
+## Conclusion
+By the end of this section, you will have successfully learned the following:
+
+- [x] How to install Git on a Windows or a Mac.
+- [x] How to set up your identifying information on Git.
+- [x] How to confirm that your information is correct.
