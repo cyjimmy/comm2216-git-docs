@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/christietsang/2522-Term-Project-ChristieBelal">
+  <a href="https://github.com/cyjimmy/comm2216-git-docs">
     <img src="images/gitLogo.png" alt="gitLogo" width="160" height="67">
   </a>
 
@@ -28,14 +28,13 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#workflow">Workflow</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
   </ol>
 </details>
 
@@ -68,7 +67,7 @@ land, productivity, product yield will be significant.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
+<!-- WORKFLOW -->
 ## Our Workflow and Processes
 
 
@@ -94,7 +93,7 @@ Jimmy Wong - [LinkedIn](https://www.linkedin.com/in/cy-jimmy-wong/)
 
 Belal Kourkmas - [LinkedIn](https://www.linkedin.com/in/belal-kourkmas/)
 
-Project Link: [https://github.com/cyjimmy/comm2216-git-docs](https://github.com/cyjimmy/comm2216-git-docs)
+Project Link: [github.com/cyjimmy/comm2216-git-docs](https://github.com/cyjimmy/comm2216-git-docs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,12 +101,6 @@ Project Link: [https://github.com/cyjimmy/comm2216-git-docs](https://github.com/
 <!-- CONCLUSION -->
 ## Conclusion
 
-- [X] Create map & corresponding bounding boxes
-- [X] Establish asset library
-- [X] Create logic for character control, animation, and animal spawn
-- [X] Create a main menu with custom login
-- [ ] Establish in-game timer & currency system
-- [ ] Progressively up in-game character speed and cow spawn time
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
