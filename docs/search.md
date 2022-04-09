@@ -4,21 +4,7 @@ title: Troubleshooting
 nav_order: 6
 ---
 
-<<<<<<< HEAD
 # Troubleshooting
-=======
-# Search
-
-
-{: .no_toc }
-
-## Table of contents
-
-{: .no_toc .text-delta }
-
-1. TOC
-   {:toc}
->>>>>>> refs/remotes/origin/gh-pages
 
 ---
 
