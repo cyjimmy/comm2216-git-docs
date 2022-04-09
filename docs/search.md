@@ -6,6 +6,7 @@ nav_order: 6
 
 # Search
 
+
 {: .no_toc }
 
 ## Table of contents
