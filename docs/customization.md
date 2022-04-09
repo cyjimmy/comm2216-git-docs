@@ -58,7 +58,7 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
    git branch -m main
    ```
 
-   Git also allows users to have branches for their repository. For a new repository, there is only one branch which is main.
+   Git also allows users to have branches for their repository. New repositories will start with one branch called main.
 
 ## Updating Remote Repository
 Now that your repository is created and setup, Git will start tracking any changes made within your local repository.
