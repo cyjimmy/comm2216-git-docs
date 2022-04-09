@@ -21,7 +21,7 @@ to revert, and whether your commit has already been published to GitHub.
 
 ## Temporarily Switch to a Different Commit
 
-**Purpose:** Temporarily re-visit your previous commit, do testing, make changes, and then to return
+**Purpose:** To temporarily re-visit your previous commit, do testing, make changes, and then return
 to your current commit - unaltered.
 
 1. ***Navigate to your repository on GitHub and copy the commit ID of the commit you want re-visit.***
