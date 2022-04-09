@@ -102,7 +102,8 @@ revert the repository to the last published commit.
    $ git branch <branch-name>
    ```
    <br/>
-6. ***Within <branch-name, merge with master, while discarding all changes from master branch.***
+6. ***Within <branch-name>, merge this branch with master, while discarding all changes from master 
+   branch.***
    ```bash
    $ git merge -s ours master
    ```
@@ -111,15 +112,20 @@ revert the repository to the last published commit.
    ```bash
    $ git checkout master
    ```
-   
-8. ***Merge <branch-name> with the master branch, within the master branch.***
+   <br/>
+8. ***Merge <branch-name> with the master branch, within the master branch. If successful, you 
+   will see a message similar to the picture below.***
    ```bash
    $ git merge <branch-name>
    ```
+   ![revert3.png](revert3.png)
+
+   <br/>
+
 9. ***Delete the temporary branch you just created.***
    ```bash
    $ git branch -d <branch-name>
    ```
-   
+
 ## Conclusion
 
