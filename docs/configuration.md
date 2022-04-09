@@ -36,18 +36,18 @@ nav_order: 2
    
    ```bash
    Username:
-   git config --global user.name "Adam Savage"
+   $ git config --global user.name "Adam Savage"
    (replace Adam Savage with your name)
    
    Email:
-   git config --global user.email "adam@hotmail.ca"
+   $ git config --global user.email "adam@hotmail.ca"
    (replace adam@hotmail.ca with your email)
    ```
    
 5. Verify your information by type the following:
    
    ```bash
-   git config --list
+   $ git config --list
    ```
    
    and look at the user.name and user.email field to double-check that     they've been set properly.
@@ -59,31 +59,31 @@ nav_order: 2
 2. In the terminal, type the following to install Git:
    
    ```bash
-   brew install git
+   $ brew install git
    ```
    
 3. Once the operation is complete, type the following to verify the installation.
    
    ```bash
-   git version
+   $ git version
    ```
    
 4. In the console, type the following to edit your name and email:
    
    ```bash
    Username:
-   git config --global user.name "Adam Savage"
+   $ git config --global user.name "Adam Savage"
    (replace Adam Savage with your name)
    
    Email:
-   git config --global user.email "adam@hotmail.ca"
+   $ git config --global user.email "adam@hotmail.ca"
    (replace adam@hotmail.ca with your email)
    ```
    
 5. Verify your information by typing the following:
    
    ```bash
-   git config --list
+   $ git config --list
    ```
    
    and look at the user.name and user.email field to double-check that     they've been set properly.

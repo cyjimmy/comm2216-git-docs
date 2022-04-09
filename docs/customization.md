@@ -29,17 +29,17 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
 1. ***Open desired directory in Command Prompt***
 
    ```bash
-   cd $PATH
+   $ cd <PATH>
    ```
 
-   Replace $PATH with the path of your local directory. This line will open the specified directory.
+   Replace <PATH> with the path of your local directory. This line will open the specified directory.
 
    Instead of typing the path of the directory, you can also type cd, then drag the desired directory to Command Prompt.
 
 2. ***Create a local Git repository***
 
    ```bash
-   git init
+   $ git init
    ```
 
    A local Git repository is a local directory with Git version control enabled.
@@ -47,15 +47,15 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
 3. ***Link your local and remote repository***
 
    ```bash
-   git remote add origin $PATH
+   $ git remote add origin <PATH>
    ```
 
-   Replace $PATH with the path of your remote repository.
+   Replace <PATH> with the path of your remote repository.
 
 4. ***Choose the main branch***
 
    ```bash
-   git branch -m main
+   $ git branch -m main
    ```
 
    Git also allows users to have branches for their repository. New repositories will start with one branch called main.
@@ -66,7 +66,7 @@ Now that your repository is created and setup, Git will start tracking any chang
 1. ***Check if there is any changes made to the local repository***
 
    ```bash
-   git status
+   $ git status
    ```
 
    This will show the changes you made locally. Screenshot below shows an example:
@@ -80,13 +80,13 @@ Now that your repository is created and setup, Git will start tracking any chang
    Git allows users to choose which file they want to update in version control. This function is called staging. Only the files added to the staging area will be updated.
 
    ```bash
-   git add $FILE_NAME
+   $ git add <FILE_NAME>
    ```
 
    This will add the specified file to the staging area. You can also ask Git to stage all modified and newly created files using:
 
    ```bash
-   git add .
+   $ git add .
    ```
 
 3. ***Commit***
@@ -94,7 +94,7 @@ Now that your repository is created and setup, Git will start tracking any chang
    In Git, commit is taking a snapshot of your repository. It is the state of your repository with the staged changes.
 
    ```bash
-   git commit -m "commit message"
+   $ git commit -m "commit message"
    ```
    
    This commit all the staged changes. Notice there is a "commit message" at the end. This is where you can put message that explain your changes. Make sure to put your message inside double quote as shown in the example.
@@ -104,7 +104,7 @@ Now that your repository is created and setup, Git will start tracking any chang
 4. ***Push your commits to remote repository***
 
    ```bash
-   git push
+   $ git push
    ```
 
    The push command will update your remote repository with the changes you committed.
@@ -112,7 +112,7 @@ Now that your repository is created and setup, Git will start tracking any chang
 ## Updating Local Repository
 
 ```bash
-git pull
+$ git pull
 ```
 
 If your local branch is behind your remote branch, which means your local repository is not up-to-date, you can use the pull command to update your local repository.
@@ -125,7 +125,7 @@ If your local branch is behind your remote branch, which means your local reposi
    If you want to only remove the version control function and keep the directory, you can use the command below:
 
    ```bash
-   rmdir /s .git
+   $ rmdir /s .git
    ```
 
    This will remove the hidden .git directory and remove the version control function.

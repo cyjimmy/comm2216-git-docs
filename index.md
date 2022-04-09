@@ -69,9 +69,9 @@ event an error occurs.
 
 ## Typographical Conventions
 
-| Convention                    | Typeface        | Convention                                        |
-|-------------------------------|-----------------|---------------------------------------------------|
-| Git                           | Regular Text    | Refers to the program as a whole when capitalized |
-| <em>git<em>                   | <em>italics<em> | Refers to command line text                       |
-| **files** and **directories** | **bold**        | Are displayed in a bolded font                    |
-| *`command line input`*        | Normal Text     | Refers to command line text                       |
+| Convention                    | Typeface    | Convention                                        |
+|-------------------------------|-------------|---------------------------------------------------|
+| Git                           | Normal Text | Refers to the program as a whole when capitalized |
+| **files** and **directories** | **Bold**    | Are displayed in a bolded font                    |
+| *`command line input`*        | Normal Text | Refers to command line text                       |
+| \<variable>                   | Normal Text | Refers to a variable where users should replace   |
