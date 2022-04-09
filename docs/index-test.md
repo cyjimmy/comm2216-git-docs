@@ -57,6 +57,8 @@ committing and pushing to GitHub.
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
 revert the repository to the last published commit.
 
+!!! warning "Action & Name Attributes" The action attribute must match the path that will match the route path where we insert the handler logic.
+
 1. ***To completely undo any un-pushed changes, use the following command line statement.***
    ```bash
    $ git reset --hard
@@ -73,17 +75,22 @@ revert the repository to the last published commit.
    ![revert2.png](revert2.png)
    
    <br/>
-2. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
+2. ***Enter 'q' to exit before entering your next command line statement.***
+   ```bash
+   $ q
+   ```
+   <br/>
+3. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
    ```bash
    $ git checkout <commit-id> .
    ```
    <br/>
-3. ***Add your file to the staging area.***
+4. ***Add your file to the staging area.***
    ```bash
    $ git add .
    ```
    <br/>
-4. ***Commit your changes.***
+5. ***Commit your changes.***
    ```bash
    $ git commit -m <commit message>
    ```
@@ -92,5 +99,7 @@ revert the repository to the last published commit.
    ```bash
    $ git push
    ```
+   
+## Conclusion
 
 
