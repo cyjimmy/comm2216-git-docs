@@ -57,15 +57,7 @@ committing and pushing to GitHub.
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
 revert the repository to the last published commit.
 
-<div class="panel panel-danger">
-**Danger**
-{: .panel-heading}
-<div class="panel-body">
-
-DANGER DESCRIPTION
-
-</div>
-</div>
+> :warning: **If you are using mobile browser**: Be very careful here!
 
 1. ***To completely undo any un-pushed changes, use the following command line statement.***
    ```bash
