@@ -79,40 +79,47 @@ revert the repository to the last published commit.
    $ git stash
    ```
    <br/>
+
 2. ***Find the version you want to return to and make a record of the commit ID.  This command 
    will return the following result in your terminal.***
    ```bash
    $ git log
    ```
    ![revert2.png](revert2.png)
-   
+
    <br/>
+   
 3. ***Enter 'q' to exit before entering your next command line statement.***
    ```bash
    $ q
    ```
    <br/>
+
 4. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
    ```bash
    $ git checkout <commit-id> .
    ```
    <br/>
-5. ***Create a new branch called <branch-name>***
+
+5. ***Create a new branch called <branch-name>.***
    ```bash
    $ git branch <branch-name>
    ```
    <br/>
+
 6. ***Within <branch-name>, merge this branch with master, while discarding all changes from master 
    branch.***
    ```bash
    $ git merge -s ours master
    ```
    <br/>
+
 7. ***Return to the master branch.***
    ```bash
    $ git checkout master
    ```
    <br/>
+
 8. ***Merge <branch-name> with the master branch, within the master branch. If successful, you 
    will see a message similar to the picture below.***
    ```bash
