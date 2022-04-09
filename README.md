@@ -69,7 +69,7 @@ team will go over the following:
 ## Our Process
 
 ### Group Collaboration
-
+Our team had roundtable discussions to select a topic and decide on workload distributions.  We communicated primarily during class and on Discord. We provided feedback on each other's work on Discord and made a habit of notifying other group members once important updates were completed.  Our group took a collaborative approach in completing tasks and ensured we reminded one another of upcoming deadlines and outstanding tasks.  We used Git and GitHub as a means of version control.
 
 ### How we Chose our Topics
 
@@ -98,10 +98,24 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONCLUSION -->
 ## Conclusion
 
+At the conclusion of following the steps outlined in this document, users should be able to perform basic Git tasks such as setting up Git, creating a new repository, and reverting files back to it's previous state.
+
+This topic was interesting but also challenging for us as there were some Git operations that our team was not too familiar with.  We enjoyed this project as it was a good opportunity for us to exercise our written communication skills while keeping the reader in mind.
+
+A warm thank you to Sam Lee for this fun project.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- RESOURCES -->
 ## Resources
+
+Please find below other Git resources, some of which was used to create this project.
+- [Atlassian - Learn Git](https://www.atlassian.com/git)
+- [Git](https://git-scm.com/)
+- [Markup Language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Just the Docs](https://github.com/just-the-docs/just-the-docs)
+- [GitHub Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+- 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -109,8 +123,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/cyjimmy/comm2216-git-docs.svg?style=for-the-badge
-[contributors-url]: https://github.com/christietsang/2522-Term-Project-ChristieBelal/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/christietsang/2522-Term-Project-ChristieBelal/blob/main/LICENSE
+[contributors-url]: https://github.com/cyjimmy/comm2216-git-docs/graphs/contributors
+[license-shield]: https://img.shields.io/github/license/cyjimmy/comm2216-git-docs.svg?style=for-the-badge
+[license-url]: https://github.com/cyjimmy/comm2216-git-docs/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/cy-jimmy-wong/
