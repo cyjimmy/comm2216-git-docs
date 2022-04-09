@@ -53,13 +53,20 @@ committing and pushing to GitHub.
    ```
    <br/>
 
-## Delete All Unpublished Commits
+## Reverting
 **Purpose:** You want to completely remove any un-pushed changes from the local directly and 
 revert the repository to the last published commit.
 
-> ⚠️ **If you are using mobile browser**: Be very careful here!
+> ⚠️ Be careful you want this is what you want, as this command  throws away all your uncommitted 
+> changes.
 
-1. ***To completely undo any un-pushed changes, use the following command line statement.***
+1. ***Temporarily put away changes you've made to your files.***
+   ```bash
+   $ git stash
+   ```
+   <br/>
+
+2. ***To completely undo any un-pushed changes, use the following command line statement.***
    ```bash
    $ git reset --hard
    ```
@@ -67,39 +74,52 @@ revert the repository to the last published commit.
 
 ## Revert Project to a Previous Version on GitHub
 
-1. ***Find the version you want to return to and make a record of the commit ID.  This command 
+1. ***Temporarily put away changes you've made to your files.***
+   ```bash
+   $ git stash
+   ```
+   <br/>
+2. ***Find the version you want to return to and make a record of the commit ID.  This command 
    will return the following result in your terminal.***
    ```bash
-   $ git log --oneline
+   $ git log
    ```
    ![revert2.png](revert2.png)
    
    <br/>
-2. ***Enter 'q' to exit before entering your next command line statement.***
+3. ***Enter 'q' to exit before entering your next command line statement.***
    ```bash
    $ q
    ```
    <br/>
-3. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
+4. ***Use the Git checkout command and the ID number of the commit you want to revert to.***
    ```bash
    $ git checkout <commit-id> .
    ```
    <br/>
-4. ***Add your file to the staging area.***
+5. ***Create a new branch called <branch-name>***
    ```bash
-   $ git add .
+   $ git branch <branch-name>
    ```
    <br/>
-5. ***Commit your changes.***
+6. ***Within <branch-name, merge with master, while discarding all changes from master branch.***
    ```bash
-   $ git commit -m <commit message>
+   $ git merge -s ours master
    ```
    <br/>
-5. ***Push to your remote repository.***
+7. ***Return to the master branch.***
    ```bash
-   $ git push
+   $ git checkout master
+   ```
+   
+8. ***Merge <branch-name> with the master branch, within the master branch.***
+   ```bash
+   $ git merge <branch-name>
+   ```
+9. ***Delete the temporary branch you just created.***
+   ```bash
+   $ git branch -d <branch-name>
    ```
    
 ## Conclusion
-
 
