@@ -26,15 +26,16 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#our-process">Our Process</a>
       <ul>
-        <li><a href="#workflow">Workflow</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#group-collaboration">Group Collaboration</a></li>
+        <li><a href="#how-we-chose-our-topics">How we Chose our Topics</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+   <li><a href="#license">License</a></li>
+   <li><a href="#contact">Contact</a></li>
+   <li><a href="#conclusion">Conclusion</a></li>
+   <li><a href="#resources">Resources</a></li>
   </ol>
 </details>
 
@@ -57,7 +58,7 @@ land, productivity, product yield will be significant.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+<!-- BUILT WITH -->
 ## Built With
 
 * [Git](https://openjfx.io/)
@@ -66,13 +67,13 @@ land, productivity, product yield will be significant.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-<!-- WORKFLOW -->
-## Our Workflow and Processes
 
+<!-- PROCESS -->
+## Our Process
 
+### Group Collaboration
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### How we Chose our Topics
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -100,6 +101,10 @@ Project Link: [github.com/cyjimmy/comm2216-git-docs](https://github.com/cyjimmy/
 
 <!-- CONCLUSION -->
 ## Conclusion
+
+
+<!-- RESOURCES -->
+## Resources
 
 
 
