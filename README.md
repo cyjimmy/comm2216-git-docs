@@ -10,10 +10,9 @@
 <br />
 <div align="center">
 
-[//]: # (![ScreenShot]&#40;images/gitLogo.png&#41;)
-
-
-<img src="gitLogo.png" alt="gitLogo" width="160" height="67"/>
+  <a href="https://github.com/christietsang/2522-Term-Project-ChristieBelal">
+    <img src="images/gitLogo.png" alt="gitLogo" width="160" height="67">
+  </a>
 
 <h1 align="center">Git Instructions - Documentation</h1>
 
