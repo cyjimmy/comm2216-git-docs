@@ -128,4 +128,8 @@ revert the repository to the last published commit.
    ```
 
 ## Conclusion
+By the end of this section, you will have successfully learned the following:
 
+- [x] How to temporarily re-visit a previous commit and return to your current working directory.
+- [x] How to undo your most recent unpublished commit.
+- [x] How to revert your files to a previous version using Git.
