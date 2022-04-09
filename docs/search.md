@@ -9,17 +9,6 @@ nav_order: 6
 =======
 # Search
 
-
-{: .no_toc }
-
-## Table of contents
-
-{: .no_toc .text-delta }
-
-1. TOC
-   {:toc}
->>>>>>> refs/remotes/origin/gh-pages
-
 ---
 
 | Symptoms                                                                          | Probable cause                                                       | Action                                                                                                      |
