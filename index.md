@@ -24,12 +24,11 @@ Git is a free, open source version-control system designed to help coordinate mu
 
 This guide is designed for users, with little to no experience with Git, learn the ropes and get familiar with using basic Git commands, and features. By the end of this guide, you will be able to:
 
-* Clone a repository
-* Select an author name
+* Create a repository
+* Assign your username and email to Git
 * Manage your changes
 * Pull updates from the latest version
 * Commit and push changes
-* Handle merge conflicts
 
 ---
 
