@@ -5,6 +5,11 @@ nav_order: 6
 ---
 
 # Troubleshooting
+<<<<<<< HEAD
+=======
+=======
+# Search
+>>>>>>> refs/remotes/origin/gh-pages
 
 ---
 
