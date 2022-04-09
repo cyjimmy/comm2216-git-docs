@@ -34,7 +34,7 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
 
    Replace $PATH with the path of your local directory. This line will open the specified directory.
 
-   Instead of typing the path of the directory, you can also type cd, then drag the desire directory to Command Prompt.
+   Instead of typing the path of the directory, you can also type cd, then drag the desired directory to Command Prompt.
 
 2. ***Create a local Git repository***
 
