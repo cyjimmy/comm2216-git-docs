@@ -101,7 +101,7 @@ revert the repository to the last published commit.
    ```
    <br/>
 
-5. ***Create a new branch called <branch-name>.***
+5. ***Create a new branch and give it a name.***
    ```bash
    $ git branch <branch-name>
    ```
