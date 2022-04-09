@@ -29,10 +29,10 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
 1. ***Open desired directory in Command Prompt***
 
    ```bash
-   $ cd <PATH>
+   $ cd <local path>
    ```
 
-   Replace <PATH> with the path of your local directory. This line will open the specified directory.
+   Replace <local path> with the path of your local directory. This line will open the specified directory.
 
    Instead of typing the path of the directory, you can also type cd, then drag the desired directory to Command Prompt.
 
@@ -47,10 +47,10 @@ Follow instructions on this [page](https://docs.github.com/en/get-started/quicks
 3. ***Link your local and remote repository***
 
    ```bash
-   $ git remote add origin <PATH>
+   $ git remote add origin <remote path>
    ```
 
-   Replace <PATH> with the path of your remote repository.
+   Replace <remote path> with the path of your remote repository.
 
 4. ***Choose the main branch***
 
@@ -80,7 +80,7 @@ Now that your repository is created and setup, Git will start tracking any chang
    Git allows users to choose which file they want to update in version control. This function is called staging. Only the files added to the staging area will be updated.
 
    ```bash
-   $ git add <FILE_NAME>
+   $ git add <file name>
    ```
 
    This will add the specified file to the staging area. You can also ask Git to stage all modified and newly created files using:
