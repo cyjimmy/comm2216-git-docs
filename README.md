@@ -9,9 +9,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/cyjimmy/comm2216-git-docs">
-    <img src="images/gitLogo.png" alt="gitLogo" width="160" height="67">
-  </a>
+
+[//]: # (![ScreenShot]&#40;images/gitLogo.png&#41;)
+
+
+<img src="images/gitLogo.png" alt="gitLogo" width="160" height="67">
+
+<h1 align="center">Git Instructions - Documentation</h1>
 
 </div>
 
@@ -43,18 +47,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
-
-Your parents have left town and have left you in charge of running the family farm for three months.
-The good news is that you keep the profits of whatever you earn!  Can you make enough tuition and pocket money to attend school in the fall?
-Players will start with a single animal and can profit by taking a range of actions - selling it for meat, keeping it for breeding, or
-selling animal byproducts such as wool, eggs, milk, or cheese. Farm maintenance is integral because animals get hungry, so the player has to walk
-around and feed them, or they’ll die.  
-
-Farm expansion will be necessary for the player to meet their endgame goal.  As such, upgrades such as increased
-land, productivity, product yield will be significant.
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -98,14 +90,15 @@ Project Link: [github.com/cyjimmy/comm2216-git-docs](https://github.com/cyjimmy/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONCLUSION -->
 ## Conclusion
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- RESOURCES -->
 ## Resources
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
