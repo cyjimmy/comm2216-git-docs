@@ -71,11 +71,22 @@ team will go over the following:
 ### Group Collaboration
 Our team had roundtable discussions to select a topic and decide on workload distributions.  We communicated primarily during class and on Discord. We provided feedback on each other's work on Discord and made a habit of notifying other group members once important updates were completed.  Our group took a collaborative approach in completing tasks and ensured we reminded one another of upcoming deadlines and outstanding tasks.  We used Git and GitHub as a means of version control.
 
-### How we Chose our Topics
+### Our Experience During this Project
+
+#### Using Markdown
+This was our first time using markdown. We found it to be an easy medium to use as the syntax is straightforward and easy to understand.  Moreover, the code is easily detectable and errors are easy to spot.
+
+#### Technical Writing
+
+
+#### Using PyCharm
+Our team used Pycharm's built-in markup display to expedite the process of writing and checking our syntax.  It provided a way for our team to view our work as we were writing it so that errors can be spotted and fixed right away.
+
+#### Using Just the Docs
+Our team used a responsive Jekyll template for documentation to create our project.  It was a good experience in creating your own work within the template of another developler's structure and code.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
@@ -115,7 +126,6 @@ Please find below other Git resources, some of which was used to create this pro
 - [Markup Language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Just the Docs](https://github.com/just-the-docs/just-the-docs)
 - [GitHub Emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-- 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
