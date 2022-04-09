@@ -13,7 +13,7 @@
 [//]: # (![ScreenShot]&#40;images/gitLogo.png&#41;)
 
 
-<img src="images/gitLogo.png" alt="gitLogo" width="160" height="67">
+<img src="gitLogo.png" alt="gitLogo" width="160" height="67">
 
 <h1 align="center">Git Instructions - Documentation</h1>
 
