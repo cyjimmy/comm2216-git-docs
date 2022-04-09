@@ -77,7 +77,9 @@ Our team had roundtable discussions to select a topic and decide on workload dis
 This was our first time using markdown. We found it to be an easy medium to use as the syntax is straightforward and easy to understand.  Moreover, the code is easily detectable and errors are easy to spot.
 
 #### Technical Writing
+Our team made our technical writing accessible in a number of ways.  We used vocabulary that was pre-defined as per the glossary, and included helpful links to help our readers gain a more holistic understanding of how to use Git. In additional to technical terminology, our team uses everyday vocabulary that can easily be understood.
 
+Moreover, all of our text is left aligned to maintain consistency, and blocks of text are broken up with other visual interruptions such as images or code blocks. Bolding, italics, and letter sizing are used to provide structure and context to the content.
 
 #### Using PyCharm
 Our team used Pycharm's built-in markup display to expedite the process of writing and checking our syntax.  It provided a way for our team to view our work as we were writing it so that errors can be spotted and fixed right away.
