@@ -22,3 +22,5 @@ nav_order: 6
 | Get the `git: 'add.' is not a git command` message when staging | You forgot the space between 'add' and '.'               | Put the correct command `git add .`                             
 | Get the `fatal: not a git repository` message                   | ???                                                      | ??? 
 {: style="width: 1000px" }
+
+
