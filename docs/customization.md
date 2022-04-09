@@ -134,3 +134,10 @@ If your local branch is behind your remote branch, which means your local reposi
 
    It is not possible to remove remote repository using Git. To remove your remote repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository).
 
+## Conclusion
+In this section, we covered the basic CRUD operations with Git which include:
+
+- [x] How to create a new local repository.
+- [x] How to link your local repository with remote repository.
+- [x] How to update repository.
+- [x] How to delete your local repository.
