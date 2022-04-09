@@ -45,16 +45,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
+Our team created this project to support the journey of new developers who are starting to familiarize themselves with
+Git.  The goal of this document is to provide users with enough information to perform basic version control operations
+using Git.  For the purposes of this document, we will be using GitHub as cloud storage. In these instructions, our 
+team will go over the following:
+ - How to set up Git for the first time
+ - Perform CRUD (Create,Read, Update, Delete) operations with Git
+ - How to revert files using Git
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- BUILT WITH -->
 ## Built With
 
-* [Git](https://openjfx.io/)
-* [Markup Language](https://github.com/AlmasB/FXGL/wiki/FXGL-11)
-* [Just the Docs](https://www.mysql.com/)
+* [Git](https://git-scm.com/)
+* [Markup Language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Just the Docs](https://github.com/just-the-docs/just-the-docs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -64,7 +70,9 @@
 
 ### Group Collaboration
 
+
 ### How we Chose our Topics
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -79,13 +87,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Christie Tsang - [@tsang_christie](https://twitter.com/tsang_christie) - [LinkedIn](https://www.linkedin.com/in/christietsang/)
+[Christie Tsang - LinkedIn](https://www.linkedin.com/in/christietsang/)
 
-Jimmy Wong - [LinkedIn](https://www.linkedin.com/in/cy-jimmy-wong/)
+[Jimmy Wong - LinkedIn](https://www.linkedin.com/in/cy-jimmy-wong/)
 
-Belal Kourkmas - [LinkedIn](https://www.linkedin.com/in/belal-kourkmas/)
-
-Project Link: [github.com/cyjimmy/comm2216-git-docs](https://github.com/cyjimmy/comm2216-git-docs)
+[Belal Kourkmas - LinkedIn](https://www.linkedin.com/in/belal-kourkmas/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,10 +108,9 @@ Project Link: [github.com/cyjimmy/comm2216-git-docs](https://github.com/cyjimmy/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/christietsang/2522-Term-Project-ChristieBelal.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/cyjimmy/comm2216-git-docs.svg?style=for-the-badge
 [contributors-url]: https://github.com/christietsang/2522-Term-Project-ChristieBelal/graphs/contributors
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/christietsang/2522-Term-Project-ChristieBelal/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/christietsang/
-[product-screenshot]: images/mainmenu.png
+[linkedin-url]: https://www.linkedin.com/in/cy-jimmy-wong/
